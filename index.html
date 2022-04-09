@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Christiano">	
+	<title>Pedra papel tesoura</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="Scores">
+		<p id="BotScore">Bot Score - </p>
+		<p id="PlayerScore">Player Score - </p>
+	</div>
+	<div class="mainDiv">
+		<p id="temp">Bot</p>
+		<div class="bot">
+			<img src="imgs/pedra.png" id="pedra">
+			<img src="imgs/papel.png" id="papel">
+			<img src="imgs/tesoura.png" id="tesoura">
+		</div>
+		<p id="result">Player</p>
+		<div class="player">
+			<img src="imgs/pedra.png" onclick="PedraClick()">
+			<img src="imgs/papel.png" onclick="PapelClick()">
+			<img src="imgs/tesoura.png" onclick="TesouraClick()">
+		</div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
